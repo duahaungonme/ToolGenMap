@@ -1,0 +1,41 @@
+
+Bird.png
+size: 285,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bird
+  rotate: true
+  xy: 177, 4
+  size: 64, 52
+  orig: 66, 54
+  offset: 1, 1
+  index: -1
+Bird_Fly1
+  rotate: true
+  xy: 123, 2
+  size: 66, 52
+  orig: 69, 54
+  offset: 2, 1
+  index: -1
+Bird_Fly2
+  rotate: true
+  xy: 2, 8
+  size: 60, 59
+  orig: 63, 62
+  offset: 2, 2
+  index: -1
+Bird_Fly3
+  rotate: true
+  xy: 231, 5
+  size: 63, 52
+  orig: 65, 54
+  offset: 1, 1
+  index: -1
+Bird_Fly4
+  rotate: false
+  xy: 63, 8
+  size: 58, 60
+  orig: 60, 62
+  offset: 1, 1
+  index: -1

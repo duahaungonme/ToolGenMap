@@ -1,0 +1,27 @@
+
+Wolf.png
+size: 200,65
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 2
+  size: 74, 61
+  orig: 77, 64
+  offset: 2, 2
+  index: -1
+Head
+  rotate: false
+  xy: 78, 13
+  size: 77, 50
+  orig: 80, 52
+  offset: 1, 1
+  index: -1
+Tail
+  rotate: true
+  xy: 157, 11
+  size: 52, 41
+  orig: 54, 43
+  offset: 1, 2
+  index: -1

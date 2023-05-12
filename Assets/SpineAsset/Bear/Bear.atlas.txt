@@ -1,0 +1,27 @@
+
+Bear.png
+size: 152,329
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bear
+  rotate: true
+  xy: 2, 159
+  size: 168, 141
+  orig: 168, 141
+  offset: 0, 0
+  index: -1
+Bubble
+  rotate: false
+  xy: 100, 100
+  size: 50, 57
+  orig: 52, 59
+  offset: 1, 1
+  index: -1
+Shadow
+  rotate: true
+  xy: 2, 2
+  size: 155, 96
+  orig: 155, 96
+  offset: 0, 0
+  index: -1

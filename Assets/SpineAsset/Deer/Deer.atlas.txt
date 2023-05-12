@@ -1,0 +1,34 @@
+
+Deer.png
+size: 106,95
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 40
+  size: 53, 53
+  orig: 55, 55
+  offset: 1, 1
+  index: -1
+Head
+  rotate: false
+  xy: 57, 46
+  size: 47, 47
+  orig: 49, 50
+  offset: 1, 1
+  index: -1
+Horn1
+  rotate: false
+  xy: 57, 4
+  size: 43, 40
+  orig: 45, 42
+  offset: 1, 1
+  index: -1
+Horn2
+  rotate: true
+  xy: 2, 2
+  size: 36, 38
+  orig: 39, 40
+  offset: 1, 1
+  index: -1
