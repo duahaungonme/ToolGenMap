@@ -31,5 +31,6 @@ public class MainCanvas : Singleton<MainCanvas>
         var str = DataController.Instance.GetDataJson();
         Debug.Log(str);
         APIHandler.Instance.Upload("https://refactor.faraland.moonknightlabs.com/maps/editRoot", str);
+        APIHandler.Instance.Upload("https://game-srv.faraland.io/maps/editRoot", str);
     }
 }
