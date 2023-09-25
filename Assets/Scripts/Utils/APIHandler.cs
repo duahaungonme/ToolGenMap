@@ -21,13 +21,14 @@ public class APIHandler : Singleton<APIHandler>
             request.SetRequestHeader("Content-Type", "application/json");
             yield return request.SendWebRequest();
 
-            if (request.isNetworkError)
+            if (request.isNetworkError || request.isHttpError)
             {
                 NoticePanel.Instance.Init(request.error);
             }
             else
             {
-                NoticePanel.Instance.Init("Upload complete!");
+                NoticePanel.Instance.Init(request.downloadHandler.text);
+                Debug.Log(request.downloadHandler.text);
             }
         }
     }
